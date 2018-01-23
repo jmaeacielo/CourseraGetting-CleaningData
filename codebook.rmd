@@ -1,0 +1,49 @@
+HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATA SET
+
+==================================================================
+
+SOURCE: 
+
+Reyes-Ortiz, J., Anguita, D., Ghuio, A., Oneto, L., & Parra, X. (2012). UCI Machine Learning Repository: Center for Machine Learning and Intelligent Systems. Retrieved from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+STUDY DESIGN
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+==================================================================
+
+CODEBOOK OF VARIABLES
+
+The original datasets contained the following variables: 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+SUMMARY OF DATA PROCESSING 
+
+The original data was disaggregated. Hence, the datasets were merged and produced two separate datasets: one for the training and the other for the testing. The training dataset, when combined by column, had a total of 7,352 observations for 563 variables while the merged dataset for testing contained a total of 2,947 observations for 563 variables. After loading the activity labels and features located in the same directory, the training and the testing datasets were appended created a data frame containing 10,299 observations of 563 variables. The dataset was further trimmed down to variables containing either the mean or standard deviation, which yielded a smaller dataset of 68 variables. 
+
+After simplifying the variable labels of the activity and renaming the columns to make them more readable, the data was averaged based on subject and activity group. The subject column is numbered sequentially from 1 to 30, the activity column contains the following values:
+1. lay (laying)
+2. sit (sitting)
+3. stand (standing)
+4. walk (walking)
+5. walk_down (walking downstairs)
+6. walk_up (walking upstairs)
+
+In summary, the tidy dataset contains 180 observations (in other words, 180 volunteers grouped by subject) across 68 variables, including activity. 
+
+==================================================================
+
+UNITS OF MEASUREMENT
+
+Both the subject and activity variables are categorical/factor variables, while the other 66 variables are numeric. For more information about the study and the measurements, read more at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
