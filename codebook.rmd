@@ -6,11 +6,6 @@ SOURCE:
 
 Reyes-Ortiz, J., Anguita, D., Ghuio, A., Oneto, L., & Parra, X. (2012). UCI Machine Learning Repository: Center for Machine Learning and Intelligent Systems. Retrieved from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
 ==================================================================
 
 STUDY DESIGN
